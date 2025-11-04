@@ -10,6 +10,7 @@ Train a Linear Regression model using a small sample dataset.
 Encode categorical variables using pandas.get_dummies().
 Save and load a trained model using Pickle (.pkl).
 Deploy a beautiful Streamlit web application for real-time predictions.
+
 🧩 Tech Stack
 
 Component	Technology Used
@@ -18,6 +19,7 @@ Web Framework	Streamlit
 Machine Learning Model	Linear Regression (Scikit-learn)
 Libraries	pandas, scikit-learn, pickle, numpy
 Frontend	Streamlit UI Components
+
 📂 Folder Structure
 
 Used_Car/ │ ├── train_model.py # Script to train the ML model and save car.pkl ├── used_car_app.py # Streamlit app for user input and prediction ├── car.pkl # Trained Linear Regression model (binary file) ├── columns.pkl # List of feature columns used during training ├── requirements.txt # Dependencies list └── README.md # Project documentation
